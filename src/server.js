@@ -2,7 +2,7 @@ const express = require('express');
 const { createServer } = require('http');
 const { Server } = require('socket.io');
 const bodyParser = require('body-parser');
-const { loadModel, handleMessage } = require('.src/aiModelHandler');
+const { loadModel, handleMessage } = require('src/aiModelHandler');
 
 const app = express();
 const httpServer = createServer(app);
